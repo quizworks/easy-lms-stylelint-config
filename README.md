@@ -13,7 +13,7 @@ Set your stylelint config to:
 
 Change/override rules by adding a `"rules"` key to your config.
 
-For example, to change the indentation to spaces:
+For example, to change the indentation to tabs:
 
 ```
 {
