@@ -6,7 +6,6 @@ gulp.task('default', function lintCssTask() {
 	return gulp
 		.src('test.scss')
 		.pipe(gulpStylelint({
-      fix: true,
 			reporters: [
 				{
 				  formatter: stylelintFormatter,
