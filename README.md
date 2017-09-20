@@ -1,6 +1,8 @@
 # stylelint-config-insyde
 > Shareable config for stylelint.
 
+Follows the rules from  [Insyde SCSS Styleguide](https://github.com/Insydebv/scss-styleguide/).
+
 ## Usage
 
 Set your stylelint config to:
