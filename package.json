@@ -20,5 +20,11 @@
     "stylelint-order": "^0.6.0",
     "stylelint-scss": "^2.1.0"
   },
-  "repository": "git@bitbucket.org:insydebv/stylelint-config-insyde.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insydebv/stylelint-config-insyde.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Insydebv/stylelint-config-insyde/issues"
+  }
 }
