@@ -1,10 +1,10 @@
 {
-  "name": "1",
+  "name": "stylelint-config-insyde",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "author": "Maarten van Spil <maarten@insyde.nl> (http://www.insyde.nl)",
   "license": "MIT",
@@ -20,5 +20,5 @@
     "stylelint-order": "^0.6.0",
     "stylelint-scss": "^2.1.0"
   },
-  "repository": "git@bitbucket.org:insydebv/webdev-toolkit-stylelint.git"
+  "repository": "git@bitbucket.org:insydebv/stylelint-config-insyde.git"
 }
