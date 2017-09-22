@@ -24,6 +24,9 @@ module.exports = {
     },
     "font-family-name-quotes": "always-where-recommended",
     "function-url-quotes": "always",
+    "indentation": [2, {
+      ignore: ["inside-parens", "param", "value"]
+    }],
     "property-no-vendor-prefix": [true, {"severity": "warning"}],
     "no-duplicate-selectors": true,
     "max-nesting-depth": 3,
@@ -34,7 +37,7 @@ module.exports = {
       ignore: ["after-comment", "inside-block"]
     }],
     "selector-no-vendor-prefix": true,
-    "selector-max-type": 1,
+    "selector-max-type": 2,
     "selector-no-qualifying-type": null,
     "selector-attribute-quotes": "always",
     "selector-max-id": 0,
@@ -46,15 +49,20 @@ module.exports = {
       resolveNestedSelectors: true
     }],
     // declaration strict variable
-    "scale-unlimited/declaration-strict-value": "color",
+    "scale-unlimited/declaration-strict-value": [
+      ["/color/", "fill", "stroke"], {
+        ignoreKeywords: ["currentColor", "transparent", "inherit"],
+      }
+    ],
     // order
     "order/properties-alphabetical-order": true,
     // scss
     "scss/at-rule-no-unknown": true,
     "at-rule-empty-line-before": [
       "always", {
-        "ignoreAtRules": ["else"],
-        "except": ["after-same-name", "inside-block", "blockless-after-same-name-blockless", "blockless-after-blockless", "first-nested"]
+        "ignoreAtRules": ["else", "import"],
+        "except": ["inside-block", "blockless-after-same-name-blockless", "blockless-after-blockless", "first-nested"],
+        "ignore": ["after-comment", "inside-block"],
       }
     ],
     "scss/at-extend-no-missing-placeholder": true,
