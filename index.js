@@ -5,8 +5,7 @@ module.exports = {
   "plugins": [
     "stylelint-declaration-strict-value",
     "stylelint-order",
-    "stylelint-scss",
-    "stylelint-no-unsupported-browser-features"
+    "stylelint-scss"
   ],
   "rules": {
     "at-rule-no-unknown": null,
@@ -78,10 +77,6 @@ module.exports = {
     "scss/dollar-variable-pattern": "^[_]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/double-slash-comment-inline": "never",
     "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
-    "scss/selector-no-redundant-nesting-selector": true,
-    // no unsupported browser features
-    "plugin/no-unsupported-browser-features": [true, {
-      "severity": "warning"
-    }]
+    "scss/selector-no-redundant-nesting-selector": true
   }
 };
