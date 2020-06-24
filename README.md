@@ -1,14 +1,14 @@
 # stylelint-config-insyde
 > Shareable config for stylelint.
 
-Follows the rules from  [Insyde SCSS Styleguide](https://github.com/Insydebv/scss-styleguide/).
+Follows the rules from  [Easy LMS SCSS Styleguide](https://github.com/quizworks/scss-styleguide).
 
 ## Usage
 
 Set your stylelint config to:
 ```
 {
-  "extends": "stylelint-config-insyde"
+  "extends": "stylelint-config-easy-lms"
 }
 ```
 ## Personal overrides
