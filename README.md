@@ -1,4 +1,4 @@
-# stylelint-config-insyde
+# easy-lms-stylelint-config
 > Shareable config for stylelint.
 
 Follows the rules from  [Easy LMS SCSS Styleguide](https://github.com/quizworks/easy-lms-scss-styleguide).
@@ -8,7 +8,7 @@ Follows the rules from  [Easy LMS SCSS Styleguide](https://github.com/quizworks/
 Set your stylelint config to:
 ```
 {
-  "extends": "stylelint-config-easy-lms"
+  "extends": "easy-lms-stylelint-config"
 }
 ```
 ## Personal overrides
@@ -19,7 +19,7 @@ For example, to change the indentation to tabs:
 
 ```
 {
-  "extends": "stylelint-config-easy-lms",
+  "extends": "easy-lms-stylelint-config",
   "rules": {
     "indentation": "tab"
   }
