@@ -19,7 +19,7 @@ For example, to change the indentation to tabs:
 
 ```
 {
-  "extends": "stylelint-config-insyde",
+  "extends": "stylelint-config-easy-lms",
   "rules": {
     "indentation": "tab"
   }
