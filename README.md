@@ -1,7 +1,7 @@
 # stylelint-config-insyde
 > Shareable config for stylelint.
 
-Follows the rules from  [Easy LMS SCSS Styleguide](https://github.com/quizworks/scss-styleguide).
+Follows the rules from  [Easy LMS SCSS Styleguide](https://github.com/quizworks/easy-lms-scss-styleguide).
 
 ## Usage
 
