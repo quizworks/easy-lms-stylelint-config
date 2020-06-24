@@ -25,7 +25,6 @@ For example, to change the indentation to tabs:
   }
 }
 ```
+## Test
 
-## [CHANGELOG](CHANGELOG.md)
-
-## [LICENSE](LICENSE)
+Run the test with `npm test`
