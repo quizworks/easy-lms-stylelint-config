@@ -28,6 +28,7 @@ module.exports = {
       ignore: ["inside-parens", "param", "value"]
     }],
     "property-no-vendor-prefix": [true, {"severity": "warning"}],
+    "no-descending-specificity": null,
     "no-duplicate-selectors": true,
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": [true, {"severity": "warning"}],
