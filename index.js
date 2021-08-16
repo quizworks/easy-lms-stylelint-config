@@ -19,7 +19,7 @@ module.exports = {
     "declaration-colon-space-after": "always",
     "declaration-empty-line-before": "never",
     "declaration-no-important": [true, {"severity": "warning"}],
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "border": ["none"]
     },
     "font-family-name-quotes": "always-where-recommended",

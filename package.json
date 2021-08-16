@@ -6,16 +6,16 @@
   "scripts": {
     "test": "node_modules/.bin/stylelint --config index.js \"**/*.@(scss|css)\""
   },
-  "author": "Maarten van Spil (http://www.easy-lms.com)",
+  "author": "Maarten van Spil (https://www.easy-lms.com)",
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^13.6.1"
+    "stylelint": "^13.13.1"
   },
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-declaration-strict-value": "^1.5.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-declaration-strict-value": "^1.7.12",
     "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.20.1"
   },
   "repository": {
     "type": "git",
