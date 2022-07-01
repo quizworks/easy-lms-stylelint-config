@@ -1,11 +1,10 @@
 "use strict";
 
 module.exports = {
-  "extends": "stylelint-config-standard",
+  "extends": "stylelint-config-standard-scss",
   "plugins": [
     "stylelint-declaration-strict-value",
     "stylelint-order",
-    "stylelint-scss"
   ],
   "rules": {
     "at-rule-no-unknown": null,
