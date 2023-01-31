@@ -1,0 +1,17 @@
+#!/bin/bash
+# strta/setup: Set up application for the first time after cloning, or set it
+# back to the initial first unused state.
+set -euo pipefail
+shopt -s inherit_errexit
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+
+echo "==> Cleaning up…"
+rm -rf "${PROJECT_ROOT}/node_modules"
+
+"${PROJECT_ROOT}/strta/bootstrap"
+
+echo "==> Building project…"
+docker compose -f docker-compose.yml run npm run build
+docker compose -f docker-compose.yml run npm run build-storybook
+
+echo "==> App is now ready to go!"
