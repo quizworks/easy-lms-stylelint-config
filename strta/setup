@@ -10,8 +10,4 @@ rm -rf "${PROJECT_ROOT}/node_modules"
 
 "${PROJECT_ROOT}/strta/bootstrap"
 
-echo "==> Building project…"
-docker compose -f docker-compose.yml run npm run build
-docker compose -f docker-compose.yml run npm run build-storybook
-
 echo "==> App is now ready to go!"
