@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/stylelint --config index.js \"**/*.@(scss|css)\""
   },
-  "author": "Maarten van Spil (https://www.easy-lms.com)",
+  "author": "EasyLMS",
   "license": "MIT",
   "dependencies": {
     "stylelint-config-standard-scss": "^4.0.0",
