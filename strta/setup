@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+shopt -s inherit_errexit
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+
+echo "==> Cleaning up…"
+rm -rf "${PROJECT_ROOT}/node_modules"
+
+"${PROJECT_ROOT}/strta/bootstrap"
+
+echo "==> App is now ready to go!"
