@@ -19,6 +19,7 @@ module.exports = {
     "declaration-property-value-disallowed-list": {
       "border": ["none"]
     },
+    "import-notation": null,
     "max-nesting-depth": 3,
     "media-feature-name-no-vendor-prefix": true,
     "order/properties-alphabetical-order": true,
