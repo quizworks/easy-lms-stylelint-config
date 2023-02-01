@@ -1,20 +1,17 @@
 {
   "name": "easy-lms-stylelint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/stylelint --config index.js \"**/*.@(scss|css)\""
-  },
-  "author": "Maarten van Spil (https://www.easy-lms.com)",
+  "author": "Easy LMS",
   "license": "MIT",
   "dependencies": {
-    "stylelint-config-standard-scss": "^4.0.0",
-    "stylelint-declaration-strict-value": "^1.8.0",
-    "stylelint-order": "^5.0.0"
+    "stylelint-config-standard-scss": "^6.1.0",
+    "stylelint-declaration-strict-value": "^1.9.1",
+    "stylelint-order": "^6.0.1"
   },
   "devDependencies": {
-    "stylelint": "^14.9.1"
+    "stylelint": "^14.16.1"
   },
   "repository": {
     "type": "git",
