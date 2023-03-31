@@ -28,10 +28,14 @@ module.exports = {
       except: ["after-single-line-comment", "inside-block-and-after-rule", "first-nested"],
       ignore: ["after-comment", "inside-block"]
     }],
-    "scale-unlimited/declaration-strict-value": [
-      ["/color/", "fill", "stroke"], {
-        ignoreKeywords: ["currentColor", "transparent", "inherit"],
-      }
+    'scale-unlimited/declaration-strict-value': [
+      ['/color$/', 'fill', 'stroke'],
+      {
+        expandShorthand: true,
+        ignoreValues: {
+          '': ['currentcolor', 'transparent', 'inherit'],
+        },
+      },
     ],
     // bem
     "selector-class-pattern": ["^([\\.\\%]?[a-z]*[-]?[a-z0-9\\-]*)(\\.[a-z0-9\\-]*)?(__[a-z0-9]*[-]?[a-z0-9\\-]*)?(--[a-z0-9]*[-]?[a-z0-9\\-]*)?(\\:[a-z]*)*$", {
