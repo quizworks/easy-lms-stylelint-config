@@ -13,7 +13,7 @@ module.exports = {
       except: ["first-nested"],
       ignore: ["after-comment", "stylelint-commands"]
     }],
-    "declaration-colon-space-after": "always",
+    "declaration-colon-space-after": "always-single-line",
     "declaration-empty-line-before": "never",
     "declaration-no-important": [true, {"severity": "warning"}],
     "declaration-property-value-disallowed-list": {
